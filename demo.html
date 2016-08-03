@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        table{
+            border:1px solid #ddd;
+        }
+        td{
+            padding: 10px;
+            border:1px solid #ddd;
+        }
+
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+        <tr>
+            <td>2015-09-08</td>
+            <td>test</td>
+            <td>52</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>2015-09-08</td>
+            <td>test</td>
+            <td>10</td>
+            <td>1.5</td>
+        </tr>
+        <tr>
+            <td>2015-09-08</td>
+            <td>test</td>
+            <td>10</td>
+            <td>1.5</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
+<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="tablesum.js"></script>
+<script type="text/javascript">
+
+   $('table').tableSum({'sumText':'total'})
+
+</script>
